@@ -48,9 +48,9 @@
         />
         <card 
           image="/homepinr.jpg"
-          title="Homepinr"
-          link="https://homepinr.com"
-          text="A web application that I designed and build in vue.js"
+          title="Incasso Link"
+          link="https://incassolink.nl"
+          text="Incasso Link makes sure you get paid for your work"
         />
         <card 
           image="/homepinr.jpg"
@@ -115,4 +115,11 @@ export default {
     padding: 30px 0
     @include breakpoint(s)
       font-size: 87.5%
+      padding: 10px 0
+    .wrapper
+      max-width: 1210px
+      padding: 0 15px
+      margin: auto
+      @include breakpoint(s)
+        padding: 0 5px
 </style>

@@ -68,7 +68,9 @@ export default {
       width: calc(50% - 30px)
 
     @include breakpoint(s)
-      width: calc(100% - 30px)
+      width: calc(100% - 20px)
+      margin: 10px
+      padding: 15px
 
     header
       border-bottom: 1px solid #F5F5F7

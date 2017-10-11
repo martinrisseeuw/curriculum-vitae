@@ -19,6 +19,8 @@ export default {
 
 header
   padding: 30px 30px 0px
+  @include breakpoint(s)
+    padding: 15px 15px 0px
   p
     margin-bottom: 0
   h1

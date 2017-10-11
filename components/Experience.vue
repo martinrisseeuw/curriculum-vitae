@@ -31,6 +31,8 @@ export default {
   @import '../assets/css/_variables.sass'
   .experience-item
     padding: 10px 30px 10px
+    @include breakpoint(s)
+      padding: 10px 15px 10px
     header
       h1
         font-weight: 700

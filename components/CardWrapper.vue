@@ -20,5 +20,6 @@
       width: calc(50% - 30px)
 
     @include breakpoint(s)
-      width: calc(100% - 30px)
+      width: calc(100% - 20px)
+      margin: 10px
 </style>
