@@ -1,0 +1,39 @@
+@mixin button-bg($bg)
+  background: $bg
+  transition: background 0.2s ease-in-out
+  &:hover
+    background: darken($bg, 8%)
+  &:active
+    background: darken($bg,25%)
+
+
+.btn
+  color: #fff
+  display: inline-block
+  text-decoration: none
+  padding: 10px 15px
+  border-radius: 0
+  font-size: 0.875em
+  font-weight: 500
+
+.rounded
+  border-radius: 3px
+
+.call-to
+   @include button-bg(#0000ff)
+
+.btn-blue
+   @include button-bg(#4A90E2)
+
+.btn-yello
+   @include button-bg(#f1c40f)
+
+.btn-red
+   @include button-bg(#e74c3c)
+
+.btn-shadow
+  transition: all 0.2s ease-in-out
+  box-shadow: 0 3px 8px 0 rgba(0,0,20,0.10)
+  &:hover
+    transform: translateY(-2px)
+    box-shadow: 0 5px 12px 0 rgba(0,0,20,0.20)

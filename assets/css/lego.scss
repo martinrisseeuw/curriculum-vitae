@@ -1,0 +1,23 @@
+$gutter: 40px;
+
+.lego-container,
+.element {
+  padding: $gutter / 2
+}
+
+.b-t-b {
+  padding-top: $gutter * 2;
+  padding-bottom: $gutter * 2;
+}
+
+.no-top {
+  padding-top: 0;
+}
+.no-bottom {
+  padding-top: 0;
+}
+
+.no-bottom-top {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}

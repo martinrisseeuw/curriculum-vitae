@@ -1,0 +1,50 @@
+$brand-color: blue
+$second-brand-color: #50C4E7
+$blue-brand-color: #50C4E7
+$call-to-action: #4573E3
+$dark-grey: #54565B
+$medium-grey: #CFCFCF
+$light-grey: #F5F5F5
+$alert: #F34B4B
+$alert-medium: #F47777
+$canvas: #fff
+$modal-gradient: linear-gradient(-230deg, #3D4562 0%, rgba(56, 59, 65, 0.8) 100%)
+$form-item-heigt: 40px
+$validation-error: #F34B4B
+
+$radius: 4px
+$gutter: 40px
+$shadow: 0 0 40px 0 rgba(0, 50, 50, 0.15)
+
+$spacing: 0.05em
+$wrapper: 1040px
+$wrapper-small: 940px
+$wrapper-xsmall: 640px
+
+@mixin breakpoint($point)
+  @if $point == xl
+    @media (min-width: 1440px) 
+      @content
+
+  @else if $point == l
+    @media (max-width: 1440px)
+      @content
+
+  @else if $point == m
+    @media (max-width: 1068px) 
+      @content
+
+  @else if $point == s
+    @media (max-width: 768px) 
+      @content
+
+
+@mixin retina
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx)
+    @content
+

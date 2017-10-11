@@ -1,0 +1,81 @@
+body
+  overflow-x: hidden
+  background-image: linear-gradient(-135deg, #F9F9FC 0%, #F5F5F8 100%)
+  background-color: #F9F9FC
+  &.no-scroll
+    overflow: hidden
+    padding-right: 5px
+  &::-webkit-scrollbar-track
+    background-color: #000
+  &::-webkit-scrollbar
+    width: 5px
+    background-color: #fff
+  &::-webkit-scrollbar-thumb
+    background-color: rgba(255, 255, 255, 1)
+  &.sticky-header
+    padding-top: 80px
+
+.wrapper
+  max-width: 1210px
+  padding: 0 15px
+  margin: auto
+
+.wrapper-small
+  max-width: 660px
+  margin: auto
+
+.flex
+  display: flex
+.a-center
+  align-items: center
+
+.col-12-1
+  width: 8.33%
+.col-12-2
+  width: 16.66%
+.col-12-3
+  width: 25%
+.col-12-4
+  width: 33.33%
+.col-12-5
+  width: 41.66%
+.col-12-6
+  width: 50%
+.col-12-7
+  width: 58.33%
+.col-12-8
+  width: 66.66%
+.col-12-9
+  width: 75%
+.col-12-10
+  width: 83.33%
+.col-12-11
+  width: 91.66%
+.col-12-12
+  width: 100%
+
+figure
+  overflow: hidden
+  img
+    max-width: 100%
+
+
+.slide-in-top-enter-active
+  animation: slide-in-top .8s
+
+.slide-in-top-leave-active
+  animation: slide-out-top .5s
+
+@keyframes slide-in-top
+  0%
+    transform: translateX(-100%)
+
+  100%
+    transform: none
+
+
+@keyframes slide-out-top
+  0%
+    transform: none
+  100%
+    transform: translateX(100%)
