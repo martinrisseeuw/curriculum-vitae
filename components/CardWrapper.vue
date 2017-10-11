@@ -10,6 +10,7 @@
   .card
     width: calc(58% - 30px)
     margin: 15px
+    padding-bottom: 15px
     background: #fff
     box-shadow: 0 2px 5px 0 rgba(0,0,20,0.10)
     border-radius: 3px
