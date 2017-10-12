@@ -13,21 +13,21 @@
           location="Amsterdam"
           position="interaction designer & front-end designer"
           date="(Jul 2014 – Current)"
-          text="As a freelancer I had the pleasure to work with some wonderful clients working on small to medium size projects. helping them with design & code."
+          text="As a freelancer I had the pleasure to work with some wonderful clients working on small to medium size projects. Helping them with design & code."
         />
         <Experience 
           title="Waag Society"
           location="Amsterdam"
           position="Interaction Designer"
           date="(Oct 2013 – Jun 2017)"
-          text="Working as an interaction designer at Waag society. I am responsible for the design, front-end and UI on different projects within the Waag. Mostly focusing on digital heritage, education, and future internet."
+          text="Working as an interaction designer at Waag society. I was responsible for the design, front-end and UI on different projects within the Waag. Mostly focusing on digital heritage, education, and future internet."
         />
         <Experience 
-          title="Frenzy Media"
+          title="FrenzyMedia"
           location="Amsterdam"
           position="Front-end designer"
           date="(Nov 2009 – Sep 2011)"
-          text="As a freelancer I had the pleasure to work with some wonderful clients working on small to medium size projects. helping them with design & code."
+          text="During my time at FrenzyMedia, I worked on small to medium size websites doing the design and front-end development."
         />
         <CardTitle title="🎓 Latest education" />
         <Experience 
@@ -118,6 +118,13 @@ export default {
 </script>
 <style lang="sass" scoped>
   @import '../assets/css/_variables.sass'
+  .section-header
+    width: 100%
+    padding: 30px 15px 15px
+    text-align: center
+    h2
+      font-size: 1.2em
+      font-weight: 600
   .main-container
     padding: 30px 0
     @include breakpoint(s)
