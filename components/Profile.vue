@@ -5,8 +5,8 @@
         <img :src="image" />
       </figure>
       <div>
-        <h1>🇳🇱 Martin Risseeuw</h1>
-        <p>Freelance interaction designer & developer, I make web things for cool people & companies. 👨🏻‍💻</p>
+        <h1>{{title}}</h1>
+        <p>{{text}}</p>
       </div>
     </header>
     <section class="links">

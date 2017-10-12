@@ -2,10 +2,9 @@
   <div class="main-container">
     <section class="wrapper flex wrap">
       <Profile 
+        title="🇳🇱 Martin Risseeuw"
         image="/martin.jpg"
-        title="Homepinr"
-        link="https://homepinr.com"
-        text="A web application that I designed and build in vue.js"
+        text="Freelance interaction designer & developer, I make web things for cool people & companies. 👨🏻‍💻"
       />
       <CardWrapper>
         <CardTitle title="📝 Experience" />
@@ -45,48 +44,56 @@
           title="Homepinr"
           link="https://homepinr.com"
           text="A web application that I designed and build in vue.js"
+          tags="Design, Front-end, Vue.js, Nuxt"
         />
         <card 
-          image="/homepinr.jpg"
+          image="/incassolink-thumb.jpg"
           title="Incasso Link"
           link="https://incassolink.nl"
           text="Incasso Link makes sure you get paid for your work"
+          tags="Design, Front-end, Vue.js"
         />
         <card 
-          image="/homepinr.jpg"
-          title="Homepinr"
-          link="https://homepinr.com"
-          text="A web application that I designed and build in vue.js"
+          image="/cardslide-thumb.jpg"
+          title="Secrid Cardslide"
+          link="https://secrid.com/cardslide"
+          text="A product presentation website for Secrid"
+          tags="Full-stack development"
         />
         <card 
-          image="/homepinr.jpg"
-          title="Homepinr"
-          link="https://homepinr.com"
-          text="A web application that I designed and build in vue.js"
+          image="/secrid-usa-thumb.jpg"
+          title="Secrid USA"
+          link="https://usa.secrid.com"
+          text="The secrid webshop for the US region"
+          tags="CSS animation, Full-stack"
         />
         <card 
-          image="/homepinr.jpg"
-          title="Homepinr"
-          link="https://homepinr.com"
-          text="A web application that I designed and build in vue.js"
+          image="/hotelgrouper-thumb.jpg"
+          title="HotelGrouper"
+          link="https://hotelgrouper.com"
+          text="A website to book hotels with group discount"
+          tags="Design, Front-end"
         />
         <card 
-          image="/homepinr.jpg"
-          title="Homepinr"
-          link="https://homepinr.com"
-          text="A web application that I designed and build in vue.js"
+          image="/openthings-thumb.jpg"
+          title="Openthings"
+          link="https://openthings.wiki"
+          text="A platform to share knowledge and build things together"
+          tags="Concept, Design, Front-end"
         />
         <card 
-          image="/homepinr.jpg"
-          title="Homepinr"
-          link="https://homepinr.com"
-          text="A web application that I designed and build in vue.js"
+          image="/sensation.jpg"
+          title="ID&T Sensation"
+          link="http://sensation.com/legazine/"
+          tags="Front-end, Interaction"
+          text="The story of one of the biggest dance events in the world"
         />
         <card 
-          image="/homepinr.jpg"
-          title="Homepinr"
-          link="https://homepinr.com"
-          text="A web application that I designed and build in vue.js"
+          image="/hortus-thumb.jpg"
+          title="Hortus chat"
+          link="https://www.botanischetuinen.nl/en/hortus-chat/"
+          text="An application to experience plants & trees in a new way"
+          tags="Interaction, Sketch, inVision app"
         />
     </section>
   </div>

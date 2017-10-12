@@ -1,5 +1,5 @@
 <template>
-  <li class="tag">
+  <li class="tag" :class="{small: small}">
     {{text}}
   </li>
 </template>
@@ -7,7 +7,8 @@
 <script>
 export default {
   props: {
-    text: String
+    text: String,
+    small: Boolean
   }
 }
 </script>
@@ -22,4 +23,8 @@ export default {
     color: #766E6E
     padding: 5px 10px 5px
     margin: 4px
+    &.small
+      padding: 2px 4px
+      margin: 1px
+      background: #f1f1f1
 </style>

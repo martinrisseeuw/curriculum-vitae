@@ -4,24 +4,42 @@
       <figure v-bind:style="{ 'background-image': 'url(' + image + ')' }">
         <img :src="image" />
       </figure>
+      <div class="tags" v-if="tags">
+        <Tag 
+          v-for="(tag, index) in tagArray"
+          v-bind:text="tag"
+          v-bind:key="index"
+          v-bind:small="true"
+        />
+      </div>
       <div>
         <h1>{{title}}</h1>
       </div>
     </header>
     <section>
       <p>{{text}}</p>
-      <a :href="link" class="btn btn-blue btn-shadow rounded">View {{title}}</a>
+      <a :href="link" class="btn btn-blue btn-shadow rounded">View project</a>
     </section>
   </article>
 </template>
 
 <script>
+import Tag from '~/components/Tag.vue'
 export default {
   props: {
     link: String,
     title: String,
     text: String,
-    image: String
+    image: String,
+    tags: String
+  },
+  computed: {
+    tagArray () {
+      return this.tags.split(',')
+    }
+  },
+  components: {
+    Tag
   }
 }
 </script>
@@ -36,7 +54,6 @@ export default {
     box-shadow: 0 2px 5px 0 rgba(0,0,20,0.10)
     border-radius: 3px
     overflow: hidden
-
     @include breakpoint(m)
       width: calc(50% - 30px)
 
@@ -52,6 +69,11 @@ export default {
         background-repeat: no-repeat
         img
           display: none
+      .tags
+        padding: 13px 13px
+        position: absolute
+        left: 0
+        bottom: 35px
       div
         padding: 12px 15px 5px
         h1
@@ -60,7 +82,7 @@ export default {
           color: #44474A
 
     p
-      font-size: 0.875em
+      font-size: 1
       color: #777
       line-height: 1.5
 
