@@ -1,6 +1,6 @@
 # cv
 
-> Nuxt.js project
+> CV Project
 
 ## Build Setup
 
