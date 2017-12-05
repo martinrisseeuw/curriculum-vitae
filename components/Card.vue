@@ -88,4 +88,11 @@ export default {
 
     section
       padding: 0 15px 15px
+
+  @media print
+    box-shadow: none
+    header
+      figure
+        img
+          display: initial
 </style>

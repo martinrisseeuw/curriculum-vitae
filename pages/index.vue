@@ -89,11 +89,11 @@
           text="The story of one of the biggest dance events in the world"
         />
         <card 
-          image="/hortus-thumb.jpg"
-          title="Hortus chat"
-          link="https://www.botanischetuinen.nl/en/hortus-chat/"
-          text="An application to experience plants & trees in a new way"
-          tags="Interaction, Sketch, inVision app"
+          image="/survey.jpg"
+          title="Secrid Registration"
+          link="https://register.secrid.com"
+          text="An application to register your wallet, and answer a survey"
+          tags="React, Redux, Redux Form"
         />
     </section>
   </div>
